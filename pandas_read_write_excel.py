@@ -11,10 +11,10 @@ and output the results to a new sheet.
 ###  1  GET LIMITS  ###
 
 # Location where original Excel file is stored
-path = 'C:\\Users\\thoma\\Documents\\ING\\INGTechnicalExercise_orig.xlsx'
+path = 'C:\\dir_name\\file_orig.xlsx'
 
 # Location where edited Excel file will be stored
-path_updated = 'C:\\Users\\thoma\\Documents\\ING\\INGTechnicalExercise_updated.xlsx'
+path_updated = 'C:\\dir_name\\file_updated.xlsx'
 
 # Create a dataframe to read Excel file sheet "Limits" into
 df_limits  = pd.DataFrame()
